@@ -1,0 +1,5 @@
+number = int(input())
+if number // 1000 + number % 10 == number // 100 % 10 - number // 10 % 10:
+    print('ДА')
+else:
+    print('НЕТ')
