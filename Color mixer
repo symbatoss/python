@@ -1,0 +1,11 @@
+n, m = str(input()), str(input())
+if n not in ('красный', 'синий', 'желтый') or m not in ('красный', 'синий', 'желтый'):
+    print('ошибка цвета')
+elif n == m:
+    print(n)
+elif 'красный' in (n, m) and 'синий' in (n, m):
+    print('фиолетовый')
+elif 'желтый' in (n, m) and 'синий' in (n, m):
+    print('зеленый')
+else:
+    print('оранжевый')
