@@ -1,0 +1,3 @@
+a = int(input()), int(input()), int(input()), int(input()), int(input())
+print("Наименьшее число", min(a), sep=" = ")
+print("Наибольшее число", max(a), sep=" = ")
