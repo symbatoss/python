@@ -1,0 +1,7 @@
+num = int(input())
+print(num//100, num%100//10, num%10, sep='')
+print(num//100, num%10, num%100//10, sep='')
+print( num%100//10,num//100, num%10, sep='')
+print(num%100//10,num%10, num//100,  sep='')
+print(num%10,num//100,num%100//10,   sep='')
+print( num%10,num%100//10,num//100,  sep='')
